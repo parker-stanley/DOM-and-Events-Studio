@@ -17,6 +17,8 @@ function init() {
     let buttonUp = document.getElementById('up');
     let buttonDown = document.getElementById('down');
     let newHeight = 0;
+    //this was recommended by ryan, is it needed?
+    rocket.style.position = 'absolute';
     
     liftOff.addEventListener('click', function(){
         if(window.confirm('Confirm that the shuttle is ready for takeoff.')){
